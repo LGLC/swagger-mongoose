@@ -1,41 +1,45 @@
 {
-  "name": "swagger-mongoose",
-  "version": "1.1.2",
-  "description": "Generate mongoose schemas and models from swagger documents",
-  "main": "./lib/index.js",
-  "directories": {
-    "test": "test"
+  "author": {
+    "name": "Simon Guest",
+    "email": "me@simonguest.com",
+    "url": "http://github.com/simonguest"
   },
+  "bugs": {
+    "url": "https://github.com/simonguest/swagger-mongoose/issues"
+  },
+  "bundleDependencies": false,
   "dependencies": {
     "lodash": "^4.6.1"
   },
+  "deprecated": false,
+  "description": "Generate mongoose schemas and models from swagger documents",
   "devDependencies": {
-    "async": "^2.0.0",
+    "async": "^2.0.0-rc.1",
     "chai": "^3.5.0",
     "mocha": "^2.4.5",
-    "mockgoose": "^7.0.0",
-    "mongoose": "^4.8.6"
+    "mockgoose": "^6.0.0",
+    "mongodb": "^2.1.11",
+    "mongoose": "^4.4.9"
   },
-  "peerDependencies": {
-    "mongoose": "^4.8.6"
+  "directories": {
+    "test": "test"
   },
-  "scripts": {
-    "test": "mocha --timeout 60000"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/simonguest/swagger-mongoose"
-  },
+  "homepage": "https://github.com/simonguest/swagger-mongoose",
   "keywords": [
     "swagger",
     "mongoose",
     "mongo",
     "schema"
   ],
-  "author": "Simon Guest <me@simonguest.com> (http://github.com/simonguest)",
   "license": "Apache 2",
-  "bugs": {
-    "url": "https://github.com/simonguest/swagger-mongoose/issues"
+  "main": "./lib/index.js",
+  "name": "swagger-mongoose",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonguest/swagger-mongoose.git"
   },
-  "homepage": "https://github.com/simonguest/swagger-mongoose"
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "1.1.2"
 }
